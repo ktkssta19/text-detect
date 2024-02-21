@@ -31,8 +31,8 @@ def convert_to_grayscale(input_folder, output_folder):
         print(f"Converted {image_file} to grayscale and saved as {image_file} in the output folder.")
 
 # Replace 'input_folder_path' with your desired input folder containing images
-input_folder_path = 'C:/Users/ktksa/.spyder-py3/Images'
-output_folder_path = 'C:/Users/ktksa/.spyder-py3/ImagesGrayscale'
+input_folder_path = 'Images'
+output_folder_path = 'ImagesGrayscale'
 
 
 convert_to_grayscale(input_folder_path,output_folder_path)

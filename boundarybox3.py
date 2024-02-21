@@ -11,10 +11,10 @@ def extract_numeric_part(s):
     return int(match.group()) if match else 0
 
 # Placeholder for input and output folder paths
-input_folder = 'C:/Users/ktksa/.spyder-py3/ImagesGrayscale'
-output_folder = 'C:/Users/ktksa/.spyder-py3/ImgBoundingBox'
-output_folder2 = 'C:/Users/ktksa/.spyder-py3/ImgCropped'
-output_folder3 = 'C:/Users/ktksa/.spyder-py3/ImgTextFileBB'
+input_folder = 'ImagesGrayscales'
+output_folder = 'ImgBoundingBox'
+output_folder2 = 'ImgCropped'
+output_folder3 = 'ImgTextFileBB'
 
 # Urdu and English both language model
 reader = easyocr.Reader(['ur', 'en'], gpu=False)
